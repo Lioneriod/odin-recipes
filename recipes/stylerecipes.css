@@ -1,27 +1,40 @@
 body {
-    background: rgb(247, 242, 225);
-    text-align: center;
-    transform: translateY(50%);
+    background: #f7f2e1;
+    margin-left: 100px;
 }
 
-#title,
-#titlelist,
+.title,
+.titlelist,
+.normaltext,
+.description,
 button{
     color: #4f5564;
 }
 
-#title{
+.title{
     font-size: 50px;
     padding: 5px;
     margin: 0px;
     font-family: 'Raleway', sans-serif;
 }
 
-#titlelist{
+.titlelist{
     font-size: 27px;
     margin: 5px;
     padding: 0px;
     font-family: 'Raleway', sans-serif;
+}
+
+.normaltext{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.description{
+    padding: 0px;
+    margin: 1px;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 12px;
 }
 
 button{
@@ -29,11 +42,18 @@ button{
     font-family: 'Montserrat', sans-serif;
     border: 2px solid;
     font-weight: 600;
-    width: 180px;
+    width: 100px;
     height: auto;
     font-size: 16px;
     border-radius: 12px;
     margin: 3px;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 6px 6px 6px -3px rgba(0,0,0,0.9);
+}
+
+img{
+    max-width: 600px;
+    border-radius: 30px;
+    height: auto;
+   margin-top: 10px;
 }
