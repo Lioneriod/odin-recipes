@@ -1,0 +1,39 @@
+body {
+    background: rgb(247, 242, 225);
+    text-align: center;
+    transform: translateY(50%);
+}
+
+#title,
+#titlelist,
+button{
+    color: rgb(79, 85, 100);
+}
+
+#title{
+    font-size: 50px;
+    padding: 5px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#titlelist{
+    font-size: 27px;
+    margin: 5px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid;
+    font-weight: 600;
+    width: 180px;
+    height: auto;
+    font-size: 16px;
+    border-radius: 12px;
+    margin: 3px;
+    padding: 10px;
+    box-shadow: 6px 6px 6px -3px rgba(0,0,0,0.9);
+}
