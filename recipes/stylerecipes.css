@@ -1,6 +1,8 @@
 body {
     background: #f7f2e1;
     margin-left: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title,
@@ -54,11 +56,11 @@ button{
 }
 
 .image{
-    display: flex;
+
 }
 
 img{
-    flex: 1 5 auto;
+    flex: 1 5 inherit;
     max-width: 750px;
     height: auto;
     border-radius: 30px;
